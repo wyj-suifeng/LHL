@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lenovo.lhl.dwhs"
+    android:weightSum="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="80dp"
+            android:textSize="30dp"
+            android:text="长度单位转换器"
+            android:layout_column="10" />
+    </TableRow>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="370dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="米"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_m"
+                android:maxLength="30"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="转换"
+                android:id="@+id/btn_m"
+                android:textSize="20dp"/>
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="尺"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_chi"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="转换"
+                android:id="@+id/btn_chi"
+                android:textSize="20dp"/>
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="寸"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_cun"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="转换"
+                android:id="@+id/btn_cun"
+                android:textSize="20dp"/>
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="里"
+                android:textSize="25dp"/>
+            <EditText
+
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_li"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="转换"
+                android:id="@+id/btn_li"
+                android:textSize="20dp"/>
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="丈"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_zhang"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="转换"
+                android:id="@+id/btn_zhang"
+                android:textSize="20dp"/>
+        </TableRow>
+
+
+
+
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear"
+            android:text="清零"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/returnn"
+            android:text="返回计算器"/>
+    </LinearLayout>
+</TableLayout>
+
+
